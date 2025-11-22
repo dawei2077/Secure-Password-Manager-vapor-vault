@@ -1,36 +1,31 @@
 # Secure-Password-Manager: VAPOR VAULT
 
-V A P O R V A U L T // 95
-A military-grade, offline-first password manager with a Windows 95 aesthetic.
+# Vapor Vault // 95 💾
 
-<img width="1843" height="931" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/48fcbbaf-cb3d-4dc0-a095-3075a770ad2d" />
+A secure, offline-first password manager with a retro Windows 95 aesthetic.
 
-🔐 Why is this secure?
-Unlike LastPass or 1Password, Vapor Vault is designed to run OFFLINE.
-1.	AES-256-GCM Encryption: Industry standard encryption.
-2.	Zero Knowledge: Your password never leaves your device.
+## ⚡ Functionality
+* **Password Generator:** Built-in cryptographic tool to generate high-entropy passwords with customizable length and character sets.
+* **Strength Checker:** Real-time analysis of password complexity with visual feedback (Weak/Moderate/Strong).
+* **Encrypted Backup:** Export your entire vault to an encrypted JSON file for safe cold storage (USB backup).
+* **Searchable Database:** Instantly filter through credentials with local-only search.
 
-3.	No Servers: There is no database to hack. Your data lives in your browser's local storage.
-4.	Auditable: This project is open source. You can verify the code yourself.
+## 🔒 Security Features
+* **Encryption:** AES-256-GCM (Military Grade).
+* **Key Derivation:** PBKDF2 (100,000 iterations) with unique salts.
+* **Zero Knowledge:** Your master password is never stored or transmitted.
+* **Offline Architecture:** No servers, no cloud databases, no tracking. The app runs entirely in your browser's local memory.
 
-💾 How to Use (The Secure Way)
-Option 1: The "Fort Knox" Method (Recommended)
-1.	Download the index.html file from the latest release.
-2.	Move the file to a secure location (like a USB stick).
-3.	Disconnect your internet.
-4.	Open index.html in your browser (Incognito mode recommended).
-5.	Your vault is now active.
+## 🛠️ Tech Stack
+* React 18
+* Vite (Custom Single-File Build)
+* Tailwind CSS
+* Web Crypto API (Native Browser Standard)
 
-Option 2: The "Paranoid" Method (Build from Source)
-If you don't trust the pre-built file, build it yourself:
-1.	Install Node.js.
-2.	Clone this repo.
-3.	Run npm install.
-4.	Run npm run build.
-5.	The secure file will be generated in the dist folder.
+## 🚀 How to Run
+1.  Download the `index.html` from the **Releases** section.
+2.  Disconnect from the internet (optional, for air-gap security).
+3.  Open the file in your browser.
 
-⚠️ Safety Rules
-1.	Backups: Since there is no cloud, if you clear your browser data, you lose your passwords. Use the Export button frequently and save the JSON file to a USB stick.
-2.	Extensions: Disable browser extensions while using the vault to prevent screen reading.
-
-Built with React, Vite, and 90s Nostalgia.
+## 📄 License
+MIT License - Free for personal and commercial use.

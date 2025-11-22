@@ -17,6 +17,7 @@ Option 1: The "Fort Knox" Method (Recommended)
 3.	Disconnect your internet.
 4.	Open index.html in your browser (Incognito mode recommended).
 5.	Your vault is now active.
+
 Option 2: The "Paranoid" Method (Build from Source)
 If you don't trust the pre-built file, build it yourself:
 1.	Install Node.js.

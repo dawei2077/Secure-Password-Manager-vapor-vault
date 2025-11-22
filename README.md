@@ -3,10 +3,13 @@
 V A P O R V A U L T // 95
 A military-grade, offline-first password manager with a Windows 95 aesthetic.
 
+<img width="1843" height="931" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/48fcbbaf-cb3d-4dc0-a095-3075a770ad2d" />
+
 🔐 Why is this secure?
 Unlike LastPass or 1Password, Vapor Vault is designed to run OFFLINE.
 1.	AES-256-GCM Encryption: Industry standard encryption.
 2.	Zero Knowledge: Your password never leaves your device.
+
 3.	No Servers: There is no database to hack. Your data lives in your browser's local storage.
 4.	Auditable: This project is open source. You can verify the code yourself.
 

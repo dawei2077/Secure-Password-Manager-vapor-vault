@@ -1,4 +1,4 @@
-# Secure-Password-Manager-vapor-vault
+# Secure-Password-Manager: VAPOR VAULT
 
 V A P O R V A U L T // 95
 A military-grade, offline-first password manager with a Windows 95 aesthetic.
